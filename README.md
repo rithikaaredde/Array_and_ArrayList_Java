@@ -3,11 +3,14 @@ This repository contains Java code to categorize numbers into even and odd array
 The program is structured into multiple Java files to maintain clean code and modular design.
 
 ## File Structure:
-### Main.java:The entry point of the program. It coordinates user input, calls methods from UserInput and ArrayFunctions, and handles the program flow.
+### Main.java:
+The entry point of the program. It coordinates user input, calls methods from UserInput and ArrayFunctions, and handles the program flow.
 
-### UserInput.java:Contains the method for accepting user input and storing the numbers into an array. It returns the array to the calling class.
+### UserInput.java:
+Contains the method for accepting user input and storing the numbers into an array. It returns the array to the calling class.
 
-### ArrayFunctions.java:Contains utility methods for handling arrays. In this case, it categorizes numbers into odd and even arrays and displays them.
+### ArrayFunctions.java:
+Contains utility methods for handling arrays. In this case, it categorizes numbers into odd and even arrays and displays them.
 
 ## Methods and Functions:
 ### Main.java

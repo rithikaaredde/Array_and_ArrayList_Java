@@ -1,9 +1,20 @@
+/*
+ * Name: Rithikaa Redde
+ * PRN: <Your PRN>
+ * Batch: <Your Batch>
+ */
+
+import java.util.*;
+
 public class Main {
-    public static void main(String args[])
-    {
+    
+    // Main method - entry point of the program
+    public static void main(String args[]) {
+        // Creating instances of UserInput and ArrayFunctions classes
         UserInput ui = new UserInput();
         ArrayFunctions fn = new ArrayFunctions();
-        //fn.display(ui.arrayInput());
+        
+        // Calling the oddEven method from ArrayFunctions to categorize numbers
         fn.oddEven(ui.arrayInput());
     }
 }
